@@ -1,12 +1,10 @@
 package com.company;/*
-Viikko 1 Viikkotehtävä 2
+Viikko 1 Viikkotehtävä 3
 */
 
-import java.util.List;
 import java.util.Scanner;
 
-public class weekOneTaskTwo {
-
+public class weekOneTaskThree {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -44,5 +42,4 @@ public class weekOneTaskTwo {
         }
 
     }
-
 }
