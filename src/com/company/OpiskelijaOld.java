@@ -4,21 +4,21 @@ Viikko 2 Viikkotehtävä 1
 
 package com.company;
 
-public class Opiskelija {
+public class OpiskelijaOld {
 
     private String etunimi;
     private String sukunimi;
     private int opiskelijanumero;
     private String osoite;
 
-    public Opiskelija(String etunimi, String sukunimi, int opiskelijanumero, String osoite) {
+    public OpiskelijaOld(String etunimi, String sukunimi, int opiskelijanumero, String osoite) {
         this.etunimi = etunimi;
         this.sukunimi = sukunimi;
         this.opiskelijanumero = opiskelijanumero;
         this.osoite = osoite;
     }
 
-    public Opiskelija() {
+    public OpiskelijaOld() {
 
     }
 
@@ -66,7 +66,7 @@ public class Opiskelija {
 
     public static void main (String[] args)  {
 
-        Opiskelija opiskelija = new Opiskelija();
+        OpiskelijaOld opiskelija = new OpiskelijaOld();
         opiskelija.setEtunimi("Juuso");
         opiskelija.setSukunimi("Marttila");
         opiskelija.setOpiskelijanumero(34324324);

@@ -60,6 +60,11 @@ public class Auto {
         this.malli = malli;
     }
 
+    public String kysyTiedot() {
+
+        return null;
+    }
+
     @Override
     public String toString() {
         return "Auton tiedot: " +
